@@ -100,11 +100,11 @@ The figure below reports the probability that inventory is **below the SKU-speci
 
 These are horizon-specific probabilities:
 
-$begin:math:display$
-P\(X\_\{i\,t\+h\} \< q\_\{i\,0\.10\}\)
-$end:math:display$
+$$
+P(X_{i,t+h} < q_{i,0.10})
+$$
 
-They should not be interpreted as the cumulative probability of crossing the threshold at any point before horizon $begin:math:text$h$end:math:text$.
+They should not be interpreted as the cumulative probability of crossing the threshold at any point before horizon $h$.
 
 The simulations reveal substantial heterogeneity across SKUs and horizons. For example, AG00 has a high estimated probability of being below its low-stock threshold at the one-day horizon (**92.5%**), remaining elevated at 7 and 14 days (**58.1%** and **47.0%**). By contrast, AJ00 has a low immediate probability (**4.0%**) that increases at longer horizons (**12.4%** at 7 days and **17.2%** at 14 days).
 
